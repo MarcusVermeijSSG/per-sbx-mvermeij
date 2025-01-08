@@ -23,8 +23,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "f_per-sbx_mvermeij_01_A.csv",
-				"folderPath": "/home/marcus",
+				"folderPath": "f_per-sbx_mvermeij_01_A.csv",
 				"container": "co-per-sbx-mvermeij-02"
 			},
 			"columnDelimiter": ";",
