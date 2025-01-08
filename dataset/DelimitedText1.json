@@ -1,0 +1,47 @@
+{
+	"name": "DelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlob_per_sbx_mvermeij_01",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"nr": {
+				"type": "int",
+				"defaultValue": 0
+			},
+			"name": {
+				"type": "string",
+				"defaultValue": "x"
+			}
+		},
+		"folder": {
+			"name": "ds-per-sbx-mvermeij-01-01"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "f_per-sbx_mvermeij_01_A.csv",
+				"folderPath": "/home/marcus",
+				"container": "co-per-sbx-mvermeij-02"
+			},
+			"columnDelimiter": ";",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": ""
+		},
+		"schema": [
+			{
+				"name": "nr",
+				"type": "String"
+			},
+			{
+				"name": "name",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,12 @@
+{
+	"name": "AzureBlob_per_sbx_mvermeij_01",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"containerUri": "https://sapersbxmvermeij01.blob.core.windows.net/co-per-sbx-mvermeij-02",
+			"authenticationType": "Anonymous"
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"name": "df-per-sbx-mvermeij-01",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c6809ed9-7728-44ee-8183-fb4989b399d0",
+		"tenantId": "8b87af7d-8647-4dc7-8df4-5f69a2011bb5"
+	}
+}
